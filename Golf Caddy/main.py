@@ -34,6 +34,7 @@ for club in clubs:
         distance_traveled = time * club.vix()
 
     # Check if distance_traveled is not None before comparing with XF
+    # The distance traveled has to be less than 10m from the hole
     if distance_traveled is not None and abs(distance_traveled - XF) < 10:
         best_club = club
         break
