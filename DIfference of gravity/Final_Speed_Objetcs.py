@@ -18,7 +18,7 @@ def v_final1(y):
         :param y: A numerical value representing the height from which the object falls (in meters).
         :return: The final velocity of the object (in meters per second).
         """
-    return sqrt(2 * g * y)
+    return sqrt((2 * g * y))
 
 
 def v_final2(y):
